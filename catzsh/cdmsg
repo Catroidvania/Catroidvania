@@ -9,4 +9,4 @@ local _COL1=${_pcolors[$RANDOM % ${#_pcolors[@]} + 1]}
 local _COL2=${_pcolors[$RANDOM % ${#_pcolors[@]} + 1]}
 local _RNDMSG=${_CDMSG[$RANDOM % ${#_CDMSG[@]} + 1]}
 
-print -P "\n%f%F{$_COL2}$_RNDMSG%f to %F{$_COL1}%U%2d%u%f!\n"
+print -P "\n%f%F{$_COL2}$_RNDMSG%f to %F{$_COL1}%U%d%u%f!\n"

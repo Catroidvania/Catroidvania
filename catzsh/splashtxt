@@ -20,15 +20,15 @@ local _descriptors=(
     'Tumblrina'
     'Cave Story Enjoyer'
     'NetHack Newb'
-    'Waifu material'
-    'Husbando material'
+    'Waifu Material'
+    'Husbando Material'
     'Sometimes Anemic'
     'Probably Malnourished'
     'The'
     'Enoki Mushrooms'
     'Mecha Enjoyer'
     'Wierdo'
-    'Topless Pacifist Nun'
+    'That Topless Pacifist Nun'
     'Mid GM'
     'Cant Run A Dwarf Fortress'
     'Katawa Shoujo!'
@@ -214,14 +214,12 @@ local _descriptors=(
     'Cant Think Of Anymore Titles'
 )
 
-local _pcolors=(001 002 003 004 005 006 007 008 009 010 011 012 013 014 015)
-
 local _PDESC=${_descriptors[$RANDOM % ${#_descriptors[@]} + 1]}
 
 local _PDESCCOL0=${_pcolors[$RANDOM % ${#_pcolors[@]} + 1]}
 local _PDESCCOL1=${_pcolors[$RANDOM % ${#_pcolors[@]} + 1]}
 local _PDESCCOL2=${_pcolors[$RANDOM % ${#_pcolors[@]} + 1]}
-local _PDESCCOL3=${_pcolors[$RANDOM % ${#_pcolors[@]} + 1]}
+local _PDESCCOL3=${_tcolors[$RANDOM % ${#_tcolors[@]} + 1]}
 local _PDESCCOL4=${_pcolors[$RANDOM % ${#_pcolors[@]} + 1]}
 local _PDESCCOL5=${_pcolors[$RANDOM % ${#_pcolors[@]} + 1]}
 local _PDESCCOL6=${_pcolors[$RANDOM % ${#_pcolors[@]} + 1]}

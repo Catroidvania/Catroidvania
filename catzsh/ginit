@@ -1,0 +1,4 @@
+git init
+git remote add origin $1
+git pull --set-upstream origin master
+git status
