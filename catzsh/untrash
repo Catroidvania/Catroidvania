@@ -1,1 +1,0 @@
-for f in $@; do mv ~/.Trash/$f $(pwd)/$f; done
